@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
 *,
 *::before,
 *::after {
@@ -8,13 +10,99 @@
 html {
     scroll-behavior: smooth;
 }
+body {
+    font-family: 'Poppins', sans-serif;
+}
 ul {
     list-style: none;
 }
 a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 img {
     width: 100%;
 }
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 4rem;
+}
+
+
+/* home section styling */
+.home {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('/images/banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home .container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+.home .container nav img {
+    width: 150px;
+}
+.home .container nav ul {
+    display: flex;
+    gap: 2rem;
+}
+.home .container nav ul a {
+    text-transform: uppercase;
+    padding: 8px 12px;
+    position: relative;
+}
+.home .container nav ul a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #f44336;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 6px;
+    transition: width 0.5s ease;
+}
+.home .container nav ul a:hover::after {
+    width: 100%;
+}
+.home .container nav .fa {
+    display: none;
+}
+
+.home .container .text-box {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.home .container .text-box h1 {
+    font-size: 60px;
+    color: #fff;
+}
+.home .container .text-box p {
+    font-size: 17px;
+    margin: 1rem 0 3rem;
+    color: #fff;
+}
+.home .container .text-box .hero-btn {
+    border: 1px solid #fff;
+    padding: 0.8rem 2rem;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.home .container .text-box .hero-btn:hover {
+    border: 1px solid #f44336;
+    color: #f44336;
+}
+
