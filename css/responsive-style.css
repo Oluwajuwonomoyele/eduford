@@ -48,5 +48,8 @@
     .container {
         padding: 0 2rem;
     }
+    .campus .container .campus-cards {
+        flex-direction: column;
+    }
 
 }
