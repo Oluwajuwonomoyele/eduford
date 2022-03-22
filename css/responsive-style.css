@@ -1,4 +1,5 @@
 @media (max-width: 768px) {
+    /* home section styling */
     .home .container .text-box {
         height: 80vh;
     }
@@ -10,7 +11,7 @@
         width: 50%;
         height: 100vh;
         top: 0;
-        right: -50%;
+        right: -51%;
         flex-direction: column;
         background-color: #f44336;
         z-index: 30;
@@ -34,6 +35,12 @@
     }
     .home .container .text-box p br {
         display: none;
+    }
+
+
+    /* courses section styling */
+    .courses .container .course-cards {
+        flex-direction: column;
     }
 }
 
