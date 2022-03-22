@@ -42,6 +42,12 @@
     .courses .container .course-cards {
         flex-direction: column;
     }
+
+    /* facilities section styling */
+    .facilities .container .cards {
+        flex-direction: column;
+        gap: 3rem;
+    }
 }
 
 @media (max-width: 425px) {

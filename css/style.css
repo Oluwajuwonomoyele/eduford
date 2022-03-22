@@ -175,11 +175,11 @@ img {
     border-radius: 10px;
     margin-bottom: 2.5rem;
     position: relative;
+    overflow: hidden;
 }
 .campus .container .campus-cards .card img {
-    width: 100%;
-    height: 100%;
     border-radius: 10px;
+    display: block;
 }
 .campus .container .campus-cards .card .card-text {
     position: absolute;
@@ -204,9 +204,62 @@ img {
     bottom: 0;
     opacity: 0;
     transition: all 0.3s ease-out;
-
 }
 .campus .container .campus-cards .card .card-text:hover h3 {
     bottom: 50%;
     opacity: 1;
 }
+
+/* facilities section styling */
+.facilities {
+    text-align: center;
+    padding-top: 5.1rem;
+}
+.facilities .container h1 {
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+.facilities .container p {
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+    padding: 0.6rem;
+    color: #777;
+}
+.facilities .container .cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 0;
+}
+.facilities .container .cards .card {
+    flex-basis: 30%;
+    border-radius: 10px;
+    text-align: left;
+}
+.facilities .container .cards .card img {
+    border-radius: 10px;
+}
+.facilities .container .cards .card h3 {
+    margin: 0.8rem 0;
+}
+.facilities .container .cards .card p {
+    padding: 0;
+}
+
+/* testimonial section styling */
+.testimonials {
+    text-align: center;
+    padding-top: 5.1rem;
+}
+.testimonials .container h1 {
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+.testimonials .container p {
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+    padding: 0.6rem;
+    color: #777;
+}
+
