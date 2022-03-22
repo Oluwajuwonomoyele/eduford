@@ -54,6 +54,18 @@
         flex-direction: column;
         gap: 3rem;
     }
+
+
+    .cta {
+        margin-bottom: 0;
+    }
+    .cta .container br {
+        display: none;
+    }
+
+    .about-us p br {
+        display: none;
+    }
 }
 
 @media (max-width: 425px) {
