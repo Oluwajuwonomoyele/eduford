@@ -48,6 +48,12 @@
         flex-direction: column;
         gap: 3rem;
     }
+
+
+    .testimonials .container .testimonial-cards {
+        flex-direction: column;
+        gap: 3rem;
+    }
 }
 
 @media (max-width: 425px) {
@@ -56,6 +62,15 @@
     }
     .campus .container .campus-cards {
         flex-direction: column;
+    }
+
+    .testimonials .container .testimonial {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    .testimonials .container .testimonial img {
+        margin: 0 auto;
     }
 
 }
