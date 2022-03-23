@@ -66,6 +66,53 @@
     .about-us p br {
         display: none;
     }
+
+
+    /* -----ABOUT-US.HTML */
+    .about-home .container nav .menu {
+        position: absolute;
+        width: 50%;
+        height: 100vh;
+        top: 0;
+        right: -51%;
+        flex-direction: column;
+        background-color: #f44336;
+        z-index: 30;
+        padding-top: 20px;
+        transition: all 0.3s ease-out;
+    }
+    .about-home .container nav .menu.active {
+        right: 0;
+    }
+    .about-home .container nav .fa {
+        display: block;
+        color: #fff;
+        cursor: pointer;
+    }
+    .about-home .container nav .close-menu {
+        margin-left: 20px;
+    }
+    .about-home .container nav ul {
+        text-align: left;
+    }
+    .about-home .container nav ul a {
+        padding: 40px;
+        font-weight: bold;
+    }
+
+    .about-content .row {
+        flex-direction: column-reverse;
+    }
+    .about-content .row .col {
+        text-align: center;
+    }
+    .about-content .row .col h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    .about-content .row .col p {
+        margin-bottom: 1.5rem;
+    }
 }
 
 @media (max-width: 425px) {

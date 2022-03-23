@@ -338,3 +338,96 @@ img {
 .about-us .socials i:hover {
     color: #777;
 }
+
+
+
+
+
+
+/* ----------ABOUT-US.HTML-------- */
+.about-home {
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('/images/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.about-home .container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+.about-home .container nav img {
+    width: 150px;
+}
+.about-home .container nav ul {
+    display: flex;
+    gap: 2rem;
+}
+.about-home .container nav ul a {
+    text-transform: uppercase;
+    padding: 8px 12px;
+    position: relative;
+}
+.about-home .container nav ul a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #f44336;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 6px;
+    transition: width 0.5s ease;
+}
+.about-home .container nav ul a:hover::after {
+    width: 100%;
+}
+.about-home .container nav .fa {
+    display: none;
+}
+.about-home h1 {
+    font-size: 60px;
+    margin-top: 5rem;
+}
+
+.about-content {
+    padding-top: 5rem;
+}
+.about-content .row {
+    display: flex;
+    justify-content: space-between;
+}
+.about-content .row .col {
+    flex-basis: 45%;
+    padding: 1.9rem 0.3rem;
+}
+.about-content .row .col h1 {
+    padding-top: 0;
+    font-size: 3rem;
+}
+.about-content .row .col p {
+    padding: 15px 0 25px;
+}
+.red-btn {
+    border: 1px solid #f44336;
+    background-color: transparent;
+    color: #f44336;
+    text-transform: uppercase;
+}
+.red-btn:hover {
+    color: #fff;
+    background-color: #f44336;
+}
+
+
+
+/* -----COURSES.HTML */
+
+
+
+ 
