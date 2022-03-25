@@ -6,34 +6,38 @@
     .home .container .text-box h1 {
         font-size: 40px;
     }
-    .home .container nav .menu {
+    .container nav .menu {
         position: absolute;
-        width: 50%;
+        width: 200px;
         height: 100vh;
         top: 0;
-        right: -51%;
+        right: -200px;
         flex-direction: column;
         background-color: #f44336;
-        z-index: 30;
+        z-index: 2;
         padding-top: 20px;
-        transition: all 0.3s ease-out;
+        transition: all 0.3s ease;
+        text-align: left;
     }
-    .home .container nav .menu.active {
+    .container nav .menu.active {
         right: 0;
     }
-    .home .container nav .fa {
+    .container nav .fa {
         display: block;
         color: #fff;
         cursor: pointer;
     }
-    .home .container nav .close-menu {
+    .container nav .close-menu {
         margin-left: 20px;
     }
-    .home .container nav ul a {
-        padding: 40px;
+    .container nav ul li {
+        margin-left: 40px;   
+        display: block;
+    }
+    .container nav ul a {
         font-weight: bold;
     }
-    .home .container .text-box p br {
+    .container .text-box p br {
         display: none;
     }
 
@@ -69,37 +73,6 @@
 
 
     /* -----ABOUT-US.HTML */
-    .about-home .container nav .menu {
-        position: absolute;
-        width: 50%;
-        height: 100vh;
-        top: 0;
-        right: -51%;
-        flex-direction: column;
-        background-color: #f44336;
-        z-index: 30;
-        padding-top: 20px;
-        transition: all 0.3s ease-out;
-    }
-    .about-home .container nav .menu.active {
-        right: 0;
-    }
-    .about-home .container nav .fa {
-        display: block;
-        color: #fff;
-        cursor: pointer;
-    }
-    .about-home .container nav .close-menu {
-        margin-left: 20px;
-    }
-    .about-home .container nav ul {
-        text-align: left;
-    }
-    .about-home .container nav ul a {
-        padding: 40px;
-        font-weight: bold;
-    }
-
     .about-content .row {
         flex-direction: column-reverse;
     }
@@ -113,16 +86,32 @@
     .about-content .row .col p {
         margin-bottom: 1.5rem;
     }
+
+
+    /* BLOG.HTML */
+    .blog-main .row {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .blog-main .left-col {
+        flex-basis: 100%;
+    }
+    .blog-main .right-col {
+        flex-basis: 100%;
+    }
 }
 
 @media (max-width: 425px) {
     .container {
         padding: 0 2rem;
     }
+    .container nav .menu {
+        width: 50%;
+        right: -50%;
+    }
     .campus .container .campus-cards {
         flex-direction: column;
     }
-
     .testimonials .container .testimonial {
         flex-direction: column;
         gap: 1rem;
@@ -131,5 +120,16 @@
     .testimonials .container .testimonial img {
         margin: 0 auto;
     }
+    .about-us {
+        padding: 2rem 0;
+    }
+    #courses-h1 {
+        font-size: 3rem;  
+    }
+    #blog-h1 {
+        font-size: 2.5rem;
+    }
+    
+
 
 }

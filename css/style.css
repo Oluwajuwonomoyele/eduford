@@ -52,25 +52,25 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.home .container nav {
+.container nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
 }
-.home .container nav img {
+.container nav img {
     width: 150px;
 }
-.home .container nav ul {
+.container nav ul {
     display: flex;
     gap: 2rem;
 }
-.home .container nav ul a {
+.container nav ul a {
     text-transform: uppercase;
     padding: 8px 12px;
     position: relative;
 }
-.home .container nav ul a::after {
+.container nav ul a::after {
     content: '';
     width: 0%;
     height: 2px;
@@ -81,10 +81,10 @@ img {
     border: 6px;
     transition: width 0.5s ease;
 }
-.home .container nav ul a:hover::after {
+.container nav ul a:hover::after {
     width: 100%;
 }
-.home .container nav .fa {
+.container nav .fa {
     display: none;
 }
 
@@ -355,46 +355,15 @@ img {
     text-align: center;
     color: #fff;
 }
-.about-home .container nav {
+.about-home header {
+    height: 35vh;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
-}
-.about-home .container nav img {
-    width: 150px;
-}
-.about-home .container nav ul {
-    display: flex;
-    gap: 2rem;
-}
-.about-home .container nav ul a {
-    text-transform: uppercase;
-    padding: 8px 12px;
-    position: relative;
-}
-.about-home .container nav ul a::after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background-color: #f44336;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    border: 6px;
-    transition: width 0.5s ease;
-}
-.about-home .container nav ul a:hover::after {
-    width: 100%;
-}
-.about-home .container nav .fa {
-    display: none;
+    justify-content: center;
 }
 .about-home h1 {
     font-size: 60px;
-    margin-top: 5rem;
 }
-
 .about-content {
     padding-top: 5rem;
 }
@@ -426,7 +395,59 @@ img {
 
 
 
-/* -----COURSES.HTML */
+/* -----BLOG.HTML */
+.blog-main {
+    margin: 3.8rem 0;
+}
+.blog-main .row {
+    display: flex;
+    justify-content: space-between;
+}
+.blog-main .left-col {
+    flex-basis: 65%;
+}
+.blog-main .left-col h2 {
+    color: #222;
+    font-weight: 600;
+    margin: 1.9rem 0;
+}
+.blog-main .left-col p {
+    color: #999;
+}
+.blog-main .left-col .comment {
+    border: 1px solid #ccc;
+    margin-top: 50px;
+    padding: 10px 20px;
+}
+.blog-main .left-col .comment form input, 
+.blog-main .left-col .comment form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: none;
+    outline: none;
+    background-color: #f0f0f0;
+    
+    
+}
+.blog-main .right-col {
+    flex-basis: 32%;
+}
+.blog-main .right-col h3 {
+    background-color: #f44336;
+    color: #fff;
+    padding: 7px 0;
+    font-size: 1rem;
+    margin-bottom: 1.7rem;
+    text-align: center;
+}
+.blog-main .right-col div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #555;
+    padding: 8px;
+}
 
 
 
