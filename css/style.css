@@ -461,7 +461,7 @@ nav .fa {
 }
 .contact-us .contact-col {
     flex-basis: 48%;
-    margin-bottom: 30px;
+    margin-bottom: 1.9rem;
 }
 .contact-us .contact-col div {
     display: flex;
@@ -477,7 +477,7 @@ nav .fa {
 }
 .contact-us .contact-col div h5 {
     font-size: 1.3rem;
-    margin-bottom: 5px;
+    margin-bottom: 0.3rem;
     color: #555;
     font-weight: 400;
 }
@@ -486,8 +486,8 @@ nav .fa {
     font-size: 1.1rem;
     width: 100%;
     outline: none;
-    padding: 15px;
-    margin-bottom: 17px;
+    padding: 0.9rem;
+    margin-bottom: 1.1rem;
     border: 1px solid #ccc;
 }
 
