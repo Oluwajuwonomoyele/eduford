@@ -417,12 +417,12 @@ nav .fa {
 .blog-main .left-col .comment {
     border: 1px solid #ccc;
     margin-top: 50px;
-    padding: 10px 20px;
+    padding: 0.6rem 1.25rem;
 }
 .blog-main .left-col .comment form input, 
 .blog-main .left-col .comment form textarea {
     width: 100%;
-    padding: 3.1rem;
+    padding: 1rem;
     margin: 0.9rem 0;
     border: none;
     outline: none;
