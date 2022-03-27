@@ -1,13 +1,13 @@
 @media (max-width: 768px) {
     /* home section styling */
-    .home .container .text-box {
+    .home .text-box {
         height: 80vh;
     }
-    .home .container .text-box h1 {
-        font-size: 40px;
+    .home .text-box h1 {
+        font-size: 2.5rem;
     }
-    .container nav .menu {
-        position: absolute;
+    nav .menu {
+        position: fixed;
         width: 200px;
         height: 100vh;
         top: 0;
@@ -15,51 +15,51 @@
         flex-direction: column;
         background-color: #f44336;
         z-index: 2;
-        padding-top: 20px;
+        padding-top: 1.25rem;
         transition: all 0.3s ease;
         text-align: left;
     }
-    .container nav .menu.active {
+    nav .menu.active {
         right: 0;
     }
-    .container nav .fa {
+    nav .fa {
         display: block;
         color: #fff;
         cursor: pointer;
     }
-    .container nav .close-menu {
-        margin-left: 20px;
+    nav .close-menu {
+        margin-left: 1.25rem;
     }
-    .container nav ul li {
-        margin-left: 40px;   
+    nav ul li {
+        margin-left: 2.5rem;   
         display: block;
     }
-    .container nav ul a {
+    nav ul a {
         font-weight: bold;
     }
-    .container .text-box p br {
+    .text-box p br {
         display: none;
     }
 
 
     /* courses section styling */
-    .courses .container .course-cards {
+    .courses .course-cards {
         flex-direction: column;
     }
 
     /* facilities section styling */
-    .facilities .container .cards {
+    .facilities .cards {
         flex-direction: column;
         gap: 3rem;
     }
 
-
-    .testimonials .container .testimonial-cards {
+    /* testimonial section styling */
+    .testimonials .testimonial-cards {
         flex-direction: column;
         gap: 3rem;
     }
 
-
+    /* call to action section styling */
     .cta {
         margin-bottom: 0;
     }
@@ -99,25 +99,40 @@
     .blog-main .right-col {
         flex-basis: 100%;
     }
+
+     /* CONTACT.HTML */
+     .contact-us .row {
+         flex-direction: column-reverse;
+     }
+     .contact-us .row .contact-col {
+         flex-basis: 100%;
+     } 
+     .contact-us .row .left-col {
+         margin-bottom: 0;
+     }
+     .contact-us .row .right-col {
+         margin-bottom: 4.4rem;
+     }
+
 }
 
 @media (max-width: 425px) {
     .container {
         padding: 0 2rem;
     }
-    .container nav .menu {
+    nav .menu {
         width: 50%;
         right: -50%;
     }
-    .campus .container .campus-cards {
+    .campus .campus-cards {
         flex-direction: column;
     }
-    .testimonials .container .testimonial {
+    .testimonials .testimonial {
         flex-direction: column;
         gap: 1rem;
         text-align: center;
     }
-    .testimonials .container .testimonial img {
+    .testimonials .testimonial img {
         margin: 0 auto;
     }
     .about-us {
@@ -129,7 +144,13 @@
     #blog-h1 {
         font-size: 2.5rem;
     }
-    
+}
 
-
+@media (max-width: 375px) {
+    #contact-home h1 {
+        font-size: 3.1rem;
+    }
+    .contact-us .row .contact-col h5 {
+        font-size: 0.9rem;
+    }
 }
