@@ -22,7 +22,7 @@ a {
 }
 img {
     width: 100%;
-}
+} 
 .container {
     max-width: 1600px;
     margin: 0 auto;
@@ -50,25 +50,25 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.container nav {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
 }
-.container nav img {
+nav img {
     width: 150px;
 }
-.container nav ul {
+nav ul {
     display: flex;
     gap: 2rem;
 }
-.container nav ul a {
+nav ul a {
     text-transform: uppercase;
     padding: 0.5rem 0.75rem;
     position: relative;
 }
-.container nav ul a::after {
+nav ul a::after {
     content: '';
     width: 0%;
     height: 2px;
@@ -79,14 +79,14 @@ img {
     border-radius: 0.4rem;
     transition: width 0.5s ease;
 }
-.container nav ul a:hover::after {
+nav ul a:hover::after {
     width: 100%;
 }
-.container nav .fa {
+nav .fa {
     display: none;
 }
 
-.home .container .text-box {
+.home .text-box {
     width: 100%;
     height: 90vh;
     display: flex;
@@ -95,11 +95,11 @@ img {
     justify-content: center;
     text-align: center;
 }
-.home .container .text-box h1 {
+.home .text-box h1 {
     font-size: 3.75rem;
     color: #fff;
 }
-.home .container .text-box p {
+.home .text-box p {
     font-size: 1.1rem;
     margin: 1rem 0 3rem;
     color: #fff;
@@ -112,38 +112,38 @@ img {
     text-align: center;
     padding-top: 6.25rem;
 }
-.courses .container h1 {
+.courses h1 {
     font-size: 2.25rem;
     font-weight: 600;
 }
-.courses .container p {
+.courses p {
     font-size: 0.9rem;
     font-weight: 700;
     line-height: 1.4rem;
     padding: 0.6rem;
     color: #777;
 }
-.courses .container .course-cards {
+.courses .course-cards {
     margin-top: 4rem;
     display: flex;
     justify-content: space-between;
 }
-.courses .container .course-cards .card {
+.courses .course-cards .card {
     flex-basis: 30%;
     background: #faede1;
     border-radius: 0.6rem;
     margin-bottom: 3rem;
     padding: 1.3rem 0.7rem;
 }
-.courses .container .course-cards .card:hover {
+.courses .course-cards .card:hover {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
-.courses .container .course-cards .card h3 {
+.courses .course-cards .card h3 {
     font-weight: 600;
     text-align: center;
     margin: 0.6rem 0;
 }
-.courses .container .course-cards .card p {
+.courses .course-cards .card p {
     line-height: 2;
 }
 
@@ -153,34 +153,34 @@ img {
     text-align: center;
     padding-top: 5.1rem;
 }
-.campus .container h1 {
+.campus h1 {
     font-size: 2.25rem;
     font-weight: 600;
 }
-.campus .container p {
+.campus p {
     font-size: 0.9rem;
     font-weight: 700;
     line-height: 1.4rem;
     padding: 0.6rem;
     color: #777;
 }
-.campus .container .campus-cards {
+.campus .campus-cards {
     display: flex;
     margin: 4rem 0;
     justify-content: space-between;
 }
-.campus .container .campus-cards .card {
+.campus .campus-cards .card {
     flex-basis: 30%;
     border-radius: 0.6rem;
     margin-bottom: 2.5rem;
     position: relative;
     overflow: hidden;
 }
-.campus .container .campus-cards .card img {
+.campus .campus-cards .card img {
     border-radius: 0.6rem;
     display: block;
 }
-.campus .container .campus-cards .card .card-text {
+.campus .campus-cards .card .card-text {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -191,10 +191,10 @@ img {
     border-radius: inherit;
     transition: background 0.5s ease-out;
 }
-.campus .container .campus-cards .card .card-text:hover {
+.campus .campus-cards .card .card-text:hover {
     background: rgba(226, 0, 0, 0.7);
 }
-.campus .container .campus-cards .card .card-text h3 {
+.campus .campus-cards .card .card-text h3 {
     width: 100%;
     font-size: 1.6rem;
     font-weight: 500;
@@ -204,7 +204,7 @@ img {
     opacity: 0;
     transition: all 0.3s ease-out;
 }
-.campus .container .campus-cards .card .card-text:hover h3 {
+.campus .campus-cards .card .card-text:hover h3 {
     bottom: 50%;
     opacity: 1;
 }
@@ -214,34 +214,34 @@ img {
     text-align: center;
     padding-top: 5.1rem;
 }
-.facilities .container h1 {
+.facilities h1 {
     font-size: 2.25rem;
     font-weight: 600;
 }
-.facilities .container p {
+.facilities p {
     font-size: 0.9rem;
     font-weight: 700;
     line-height: 1.4rem;
     padding: 0.6rem;
     color: #777;
 }
-.facilities .container .cards {
+.facilities .cards {
     display: flex;
     justify-content: space-between;
     margin: 4rem 0;
 }
-.facilities .container .cards .card {
+.facilities .cards .card {
     flex-basis: 30%;
     border-radius: 0.6rem;
     text-align: left;
 }
-.facilities .container .cards .card img {
+.facilities .cards .card img {
     border-radius: 0.6rem;
 }
-.facilities .container .cards .card h3 {
+.facilities .cards .card h3 {
     margin: 0.8rem 0;
 }
-.facilities .container .cards .card p {
+.facilities .cards .card p {
     padding: 0;
 }
 
@@ -250,23 +250,23 @@ img {
     text-align: center;
     padding-top: 5.1rem;
 }
-.testimonials .container h1 {
+.testimonials h1 {
     font-size: 2.25rem;
     font-weight: 600;
 }
-.testimonials .container p {
+.testimonials p {
     font-size: 0.9rem;
     font-weight: 700;
     line-height: 1.4rem;
     padding: 0.6rem;
     color: #777;
 }
-.testimonials .container .testimonial-cards {
+.testimonials .testimonial-cards {
     display: flex;
     justify-content: space-around;
     margin: 4rem 0;
 }
-.testimonials .container .testimonial {
+.testimonials .testimonial {
     flex-basis: 40%;
     border-radius: 0.6rem;
     text-align: left;
@@ -275,21 +275,21 @@ img {
     cursor: pointer;
     display: flex;
 }
-.testimonials .container .testimonial img {
+.testimonials .testimonial img {
     width: 50px;
     height: 50px;
     margin-right: 1.8rem;
     margin-left: 0.3rem;
     border-radius: 50%;
 }
-.testimonials .container .testimonial p {
+.testimonials .testimonial p {
     padding: 0;
 }
-.testimonials .container .testimonial h3 {
+.testimonials .testimonial h3 {
     margin-top: 0.9rem;
 }
-.testimonials .container .testimonial .fa,
-.testimonials .container .testimonial .far {
+.testimonials .testimonial .fa,
+.testimonials .testimonial .far {
     color: #f44336;
 }
 
@@ -303,7 +303,7 @@ img {
     background-size: cover;
     background-position: center;
 }
-.cta .container h1 {
+.cta h1 {
     font-size: 2.25rem;
     font-weight: 600;
     color: #fff;
